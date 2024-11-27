@@ -1,161 +1,66 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
-<!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
-<html lang="ru">
-	<!-- Заголовок страницы,контейнер для других важных данных(не отображается) -->
-	<head>
-		<!-- Заголовок страницы в браузере -->
-		<title>FLEXBOX</title>
-		<!-- Адаптив -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-		<!-- Подключаем CSS -->
-		<link rel="stylesheet" href="css/style.css">
-<!-- Кодировка страницы  -->
-		<meta charset="UTF-8">
-	</head>
-	<!-- Отображаемое тело страницы -->
-	<body>
-		<div class="wrapper">
-			<div class="content">
-				<div class="hi">
-					<div class="container">
-						<div class="hi__row">
-							<div class="hi__body">
-								<div class="hi__title">Привет, друг!</div>
-								<ul class="hi__list">
-									<li>У тебя все получится!</li>
-									<li>Никогда не здавайся!</li>
-									<li>Сегодня ты уже знаешь больше чем вчера!</li>
-									<li>Спасибо тебе за поддержку!</li>
-								</ul>
-							</div>
-							<div class="hi__image">
-								<img src="img/image.jpg" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="what">
-					<div class="container">
-						<div class="what__row">
-							<div class="what__image">
-								<img src="img/image_2.jpg" alt="">
-							</div>
-							<div class="what__body">
-								<div class="what__title title">
-									Что такое FlexBox?
-								</div>
-								<div class="what__text">
-									<p>Flexbox - это целый модуль, содержащий в себе набор свойств и их значений как для родителя flex-контейнера так и для его дочерних элементов flex-элементов. </p>
-									<p>Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом заполнить доступное пространство flex-контейнера</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="columns">
-					<div class="container">
-						<div class="columns__title title">Колонки с flex-контейнерами</div>
-						<div class="columns__row">
-							<div class="columns__coloumn">
-								<div class="coloumns__item item">
-									<div class="item__row">
-										<div class="item__image">
-											<img src="img/image_3.jpg" alt="">
-										</div>
-										<div class="item__body">
-											<div class="item__title">The description for the image</div>
-											<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="columns__coloumn">
-								<div class="coloumns__item item">
-									<div class="item__row">
-										<div class="item__image">
-											<img src="img/image_3.jpg" alt="">
-										</div>
-										<div class="item__body">
-											<div class="item__title">The description for the image</div>
-											<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="columns__coloumn">
-								<div class="coloumns__item item">
-									<div class="item__row">
-										<div class="item__image">
-											<img src="img/image_3.jpg" alt="">
-										</div>
-										<div class="item__body">
-											<div class="item__title">The description for the image</div>
-											<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="columns__coloumn">
-								<div class="coloumns__item item">
-									<div class="item__row">
-										<div class="item__image">
-											<img src="img/image_3.jpg" alt="">
-										</div>
-										<div class="item__body">
-											<div class="item__title">The description for the image</div>
-											<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				<div class="vertical">
-					<div class="container">
-						<div class="vertical__title title">Вертикальное выравнивание</div>
-						<div class="vertical__body">
-							<div class="vercical_row">
-								<div class="vercical__coloumn vertical__column_1">
-									<div class="vercical__item">
-										<div class="vercical__subtitle">буду рад</div>
-										<div class="vercical_lable">подписке</div>
-										<div class="vercical__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur.</div>
-										<a href="" class="vertical__btn">Подписаться</a>
-									</div>
-								</div>
-								<div class="vercical__coloumn vertical__column_2">
-									<div class="vercical__item">
-										<div class="vercical__subtitle">буду рад</div>
-										<div class="vercical_lable">лайку</div>
-										<div class="vercical__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur voluptatibus atque et itaque, hic, deleniti.</p>
-										<p>Sunt commodi tempora voluptatum dolorumLorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur tempora voluptatum dolorum..</p></div>
-										<a href="" class="vertical__btn">Лайк</a>
-									</div>
-								</div>
-								<div class="vercical__coloumn vertical__column_3">
-									<div class="vercical__item">
-										<div class="vercical__subtitle">буду рад</div>
-										<div class="vercical_lable">комментарию</div>
-										<div class="vercical__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</div>
-										<a href="" class="vertical__btn">комментировать</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<footer class="footer">
-				<div class="container">
-					<div class="footer__row">
-						<div class="footer__text">Фрилaнсер по жизни 2019</div>
-					</div>
-				</div>
-			</footer>
-		</div>
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sixing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
 
-	</body>
-</html>
+nav, footer, header,aside{display: block}
+
+html, body{   
+	height: 100%;
+	width: 100%;
+	front-size: 100%;
+	line-height: 1;
+	front-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-famyly:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.wrapper{
+	padding: 30px;
+	min-height: 100%;
+}
+/*--------------------*/
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px 0px 30px 0px;
+}
+
+.image-slider{
+    padding: 30px 0 70px 0;
+}
+.image-slider__wrapper{
+
+}
+.image-slider__slide{
+
+}
+.image-slider__image{
+    text-align: center;
+}
+.image-slider__image img{
+    min-width: 100%;
+}
